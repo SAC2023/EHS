@@ -17,3 +17,17 @@ We tested our build with Linux Kernel 5.4.9-47-generic and GCC 9.0. The Linux ke
 
 
 To get all external dependencies for Dash and CCEH, you can refer to the [customized PMDK](https://github.com/XiangpengHao/pmdk), [Dash](https://github.com/baotonglu/dash), [CCEH](https://github.com/DICL/CCEH), and [epoch manager](https://github.com/XiangpengHao/VeryPM), which are also open-sourced. 
+
+
+
+### Compiling
+This compliation is done under a `build` directory of the same source:
+```bash
+git clone https://github.com/SAC2023/EHS.git
+cd EHS
+mkdir build && cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DUSE_PMEM=ON .. 
+make -j
+```
+
+## Running benchmark
