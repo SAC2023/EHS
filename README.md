@@ -30,4 +30,4 @@ cmake -DCMAKE_BUILD_TYPE=Release -DUSE_PMEM=ON ..
 make -j
 ```
 
-## Running benchmark
+### Running benchmark
