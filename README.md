@@ -1,23 +1,10 @@
-# Dash: Scalable Hashing on Persistent Memory
+# EHS: Efficient Hashing Scheme for Persistent Memory
 
-Persistent memory friendly hashing index.
+This repository is for development of a hashing scheme for Persistent memory.
 
-More details are described in our [VLDB paper](http://www.vldb.org/pvldb/vol13/p1147-lu.pdf) below. If you use our work, please cite:
+## Contents inside:
 
-````
-Baotong Lu, Xiangpeng Hao, Tianzheng Wang, Eric Lo:
-Dash: Scalable Hashing on Persistent Memory. 
-PVLDB 13(8): 1147-1161 (2020)
-````
-
-## What's included
-
-- Dash EH - Proposed Dash extendible hashing
-- Dash LH - Proposed Dash linear Hashing
-- CCEH - PMDK patched CCEH variant used in our benchmark
-- Level Hashing - PMDK patched level hashing variant used in our benchmark
-- Mini benchmark framework
-- Example program - how to integrate Dash to your application
+It contains the ESH implementation and the Dash codes which shares the base code for implementation for Persistent memory.
 
 Fully open-sourced under MIT license.
 
@@ -25,15 +12,15 @@ Fully open-sourced under MIT license.
 ## Building
 
 ### Dependencies
-We tested our build with Linux Kernel 5.5.3 and GCC 9.2. You must ensure that your Linux kernel version >= 4.17 and glibc >=2.29 since we use `MAP_FIXED_NOREPLACE` in our customized PMDK. 
+We tested our build with Linux Kernel 5.4.9-47-generic and GCC 9.0. The Linux kernel versions recommended tobe newer than 4.17 and glibc >=2.29 to easily connect the codes to the migrated codes from Dash since both implementation use MAP_FIXED_NOREPLACE in the customized PMDK. 
 
-The external dependencies are our [customized PMDK](https://github.com/XiangpengHao/pmdk) and [epoch manager](https://github.com/XiangpengHao/VeryPM), which are also open-sourced. 
+To get all external dependencies for Dash and CCEH, you can refer to the [customized PMDK](https://github.com/XiangpengHao/pmdk), [Dash](https://github.com/baotonglu/dash), [CCEH](https://github.com/DICL/CCEH), and [epoch manager](https://github.com/XiangpengHao/VeryPM), which are also open-sourced. 
 
 ### Compiling
-Assuming to compile under a `build` directory:
-```bash
-git clone https://github.com/baotonglu/dash.git
-cd dash
+This compliation is done under a `build` directory of the same source::
+```EHS
+git clone https://github.com/SAC2023/EHS.git
+cd ESH
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release -DUSE_PMEM=ON .. 
 make -j
