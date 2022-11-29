@@ -1,0 +1,1068 @@
+desc: (none)
+cmd: ../build/exampleacceh
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=3674356
+mem_heap_B=56
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=3676249
+mem_heap_B=128
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=3677717
+mem_heap_B=5336
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=detailed
+n6: 5336 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4352 0x4D56D6F: fts_palloc (fts.c:1054)
+  n1: 4352 0x4D56D6F: fts_open (fts.c:153)
+   n1: 4352 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 4352 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 4352 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 4352 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 4352 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 4352 0x4011C90: call_init (dl-init.c:30)
+         n1: 4352 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 4352 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 298 0x4D56DF3: fts_alloc (fts.c:1000)
+  n1: 298 0x4D56DF3: fts_open (fts.c:172)
+   n1: 298 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 298 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 298 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 298 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 298 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 298 0x4011C90: call_init (dl-init.c:30)
+         n1: 298 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 298 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 279 0x4D56F69: fts_alloc (fts.c:1000)
+  n1: 279 0x4D56F69: fts_open (fts.c:158)
+   n1: 279 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 279 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 279 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 279 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 279 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 279 0x4011C90: call_init (dl-init.c:30)
+         n1: 279 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 279 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 279 0x4D5706B: fts_alloc (fts.c:1000)
+  n1: 279 0x4D5706B: fts_open (fts.c:207)
+   n1: 279 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 279 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 279 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 279 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 279 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 279 0x4011C90: call_init (dl-init.c:30)
+         n1: 279 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 279 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 72 0x4D56CDB: fts_open (fts.c:135)
+  n1: 72 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+   n1: 72 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 72 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 72 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 72 0x4011B89: call_init.part.0 (dl-init.c:72)
+       n1: 72 0x4011C90: call_init (dl-init.c:30)
+        n1: 72 0x4011C90: _dl_init (dl-init.c:119)
+         n0: 72 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 56 0x4E3930B: _Malloc (in /usr/local/lib64/libpmem.so.1.0.0)
+  n1: 56 0x4E393B3: Zalloc (in /usr/local/lib64/libpmem.so.1.0.0)
+   n1: 56 0x4E396F2: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 56 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 56 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 56 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 56 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 56 0x4011C90: call_init (dl-init.c:30)
+         n1: 56 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 56 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+#-----------
+snapshot=4
+#-----------
+time=3679545
+mem_heap_B=39309
+mem_heap_extra_B=155
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=3680665
+mem_heap_B=40450
+mem_heap_extra_B=198
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=3682611
+mem_heap_B=9350
+mem_heap_extra_B=266
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=3683793
+mem_heap_B=9059
+mem_heap_extra_B=245
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=3684715
+mem_heap_B=7914
+mem_heap_extra_B=190
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=3686088
+mem_heap_B=12409
+mem_heap_extra_B=247
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=3686804
+mem_heap_B=45516
+mem_heap_extra_B=276
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=3688514
+mem_heap_B=47245
+mem_heap_extra_B=355
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=3689648
+mem_heap_B=48393
+mem_heap_extra_B=407
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=3690770
+mem_heap_B=49554
+mem_heap_extra_B=446
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=3691928
+mem_heap_B=50709
+mem_heap_extra_B=491
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=3693078
+mem_heap_B=51850
+mem_heap_extra_B=534
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=3693948
+mem_heap_B=52708
+mem_heap_extra_B=564
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=3695388
+mem_heap_B=53577
+mem_heap_extra_B=615
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=3696590
+mem_heap_B=54728
+mem_heap_extra_B=680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=3697471
+mem_heap_B=55583
+mem_heap_extra_B=713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=3698615
+mem_heap_B=56728
+mem_heap_extra_B=752
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=3700561
+mem_heap_B=25631
+mem_heap_extra_B=817
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=3702313
+mem_heap_B=24480
+mem_heap_extra_B=752
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=3703707
+mem_heap_B=57901
+mem_heap_extra_B=795
+mem_stacks_B=0
+heap_tree=detailed
+n5: 57901 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 32816 0x4D23098: __alloc_dir (opendir.c:118)
+  n1: 32816 0x4D23098: opendir_tail (opendir.c:69)
+   n1: 32816 0x4D23098: opendir (opendir.c:92)
+    n1: 32816 0x4D5623B: fts_build (fts.c:636)
+     n1: 32816 0x4D57455: fts_read (fts.c:396)
+      n2: 32816 0x4E39794: fs_read (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 32816 0x4E44A97: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 32816 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+         n1: 32816 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+          n1: 32816 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+           n1: 32816 0x4011B89: call_init.part.0 (dl-init.c:72)
+            n1: 32816 0x4011C90: call_init (dl-init.c:30)
+             n1: 32816 0x4011C90: _dl_init (dl-init.c:119)
+              n0: 32816 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 14963 0x4D563FB: fts_alloc (fts.c:1000)
+  n1: 14963 0x4D563FB: fts_build (fts.c:725)
+   n1: 14963 0x4D57455: fts_read (fts.c:396)
+    n2: 14963 0x4E39794: fs_read (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 12676 0x4E44A97: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 12676 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 12676 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 12676 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+         n1: 12676 0x4011B89: call_init.part.0 (dl-init.c:72)
+          n1: 12676 0x4011C90: call_init (dl-init.c:30)
+           n1: 12676 0x4011C90: _dl_init (dl-init.c:119)
+            n0: 12676 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+     n1: 2287 0x4E44C22: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 2287 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 2287 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 2287 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 2287 0x4011C90: call_init (dl-init.c:30)
+          n1: 2287 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 2287 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 8704 0x4D56D6F: fts_palloc (fts.c:1054)
+  n1: 8704 0x4D56D6F: fts_open (fts.c:153)
+   n2: 8704 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 4352 0x4E44972: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 4352 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 4352 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 4352 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 4352 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 4352 0x4011C90: call_init (dl-init.c:30)
+          n1: 4352 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 4352 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+    n1: 4352 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 4352 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 4352 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 4352 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 4352 0x4011C90: call_init (dl-init.c:30)
+         n1: 4352 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 4352 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 814 in 4 places, all below massif's threshold (1.00%)
+ n1: 604 0x4D56DF3: fts_alloc (fts.c:1000)
+  n1: 604 0x4D56DF3: fts_open (fts.c:172)
+   n1: 604 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n0: 604 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=3705675
+mem_heap_B=59658
+mem_heap_extra_B=878
+mem_stacks_B=0
+heap_tree=detailed
+n4: 59658 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 32816 0x4D23098: __alloc_dir (opendir.c:118)
+  n1: 32816 0x4D23098: opendir_tail (opendir.c:69)
+   n1: 32816 0x4D23098: opendir (opendir.c:92)
+    n1: 32816 0x4D5623B: fts_build (fts.c:636)
+     n1: 32816 0x4D57455: fts_read (fts.c:396)
+      n2: 32816 0x4E39794: fs_read (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 32816 0x4E44A97: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 32816 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+         n1: 32816 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+          n1: 32816 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+           n1: 32816 0x4011B89: call_init.part.0 (dl-init.c:72)
+            n1: 32816 0x4011C90: call_init (dl-init.c:30)
+             n1: 32816 0x4011C90: _dl_init (dl-init.c:119)
+              n0: 32816 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 16720 0x4D563FB: fts_alloc (fts.c:1000)
+  n1: 16720 0x4D563FB: fts_build (fts.c:725)
+   n1: 16720 0x4D57455: fts_read (fts.c:396)
+    n2: 16720 0x4E39794: fs_read (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 14433 0x4E44A97: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 14433 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 14433 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 14433 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+         n1: 14433 0x4011B89: call_init.part.0 (dl-init.c:72)
+          n1: 14433 0x4011C90: call_init (dl-init.c:30)
+           n1: 14433 0x4011C90: _dl_init (dl-init.c:119)
+            n0: 14433 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+     n1: 2287 0x4E44C22: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 2287 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 2287 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 2287 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 2287 0x4011C90: call_init (dl-init.c:30)
+          n1: 2287 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 2287 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 8704 0x4D56D6F: fts_palloc (fts.c:1054)
+  n1: 8704 0x4D56D6F: fts_open (fts.c:153)
+   n2: 8704 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 4352 0x4E44972: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 4352 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 4352 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 4352 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 4352 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 4352 0x4011C90: call_init (dl-init.c:30)
+          n1: 4352 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 4352 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+    n1: 4352 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 4352 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 4352 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 4352 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 4352 0x4011C90: call_init (dl-init.c:30)
+         n1: 4352 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 4352 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 1418 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=3707316
+mem_heap_B=24483
+mem_heap_extra_B=749
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=3708582
+mem_heap_B=22763
+mem_heap_extra_B=693
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=3710228
+mem_heap_B=20470
+mem_heap_extra_B=586
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=3711675
+mem_heap_B=52421
+mem_heap_extra_B=555
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=3713108
+mem_heap_B=53862
+mem_heap_extra_B=610
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=3714236
+mem_heap_B=55000
+mem_heap_extra_B=656
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=3716072
+mem_heap_B=55293
+mem_heap_extra_B=659
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=3717280
+mem_heap_B=56474
+mem_heap_extra_B=726
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=3718394
+mem_heap_B=57652
+mem_heap_extra_B=780
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=3719807
+mem_heap_B=23941
+mem_heap_extra_B=715
+mem_stacks_B=0
+heap_tree=detailed
+n5: 23941 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 13819 0x4D563FB: fts_alloc (fts.c:1000)
+  n1: 13819 0x4D563FB: fts_build (fts.c:725)
+   n1: 13819 0x4D57455: fts_read (fts.c:396)
+    n2: 13819 0x4E39794: fs_read (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 11532 0x4E44A97: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 11532 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 11532 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 11532 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+         n1: 11532 0x4011B89: call_init.part.0 (dl-init.c:72)
+          n1: 11532 0x4011C90: call_init (dl-init.c:30)
+           n1: 11532 0x4011C90: _dl_init (dl-init.c:119)
+            n0: 11532 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+     n1: 2287 0x4E44C22: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 2287 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 2287 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 2287 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 2287 0x4011C90: call_init (dl-init.c:30)
+          n1: 2287 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 2287 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 8704 0x4D56D6F: fts_palloc (fts.c:1054)
+  n1: 8704 0x4D56D6F: fts_open (fts.c:153)
+   n2: 8704 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 4352 0x4E44972: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 4352 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 4352 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 4352 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 4352 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 4352 0x4011C90: call_init (dl-init.c:30)
+          n1: 4352 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 4352 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+    n1: 4352 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 4352 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 4352 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 4352 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 4352 0x4011C90: call_init (dl-init.c:30)
+         n1: 4352 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 4352 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 604 0x4D56DF3: fts_alloc (fts.c:1000)
+  n1: 604 0x4D56DF3: fts_open (fts.c:172)
+   n2: 604 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 306 0x4E44972: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 306 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 306 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 306 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 306 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 306 0x4011C90: call_init (dl-init.c:30)
+          n1: 306 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 306 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+    n1: 298 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 298 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 298 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 298 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 298 0x4011C90: call_init (dl-init.c:30)
+         n1: 298 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 298 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 558 0x4D56F69: fts_alloc (fts.c:1000)
+  n1: 558 0x4D56F69: fts_open (fts.c:158)
+   n2: 558 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 279 0x4E44972: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 279 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 279 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 279 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 279 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 279 0x4011C90: call_init (dl-init.c:30)
+          n1: 279 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 279 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+    n1: 279 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 279 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 279 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 279 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 279 0x4011C90: call_init (dl-init.c:30)
+         n1: 279 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 279 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 256 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=3721065
+mem_heap_B=22193
+mem_heap_extra_B=639
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=3723060
+mem_heap_B=19320
+mem_heap_extra_B=536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=3724544
+mem_heap_B=51278
+mem_heap_extra_B=498
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=3725668
+mem_heap_B=52460
+mem_heap_extra_B=564
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=3727312
+mem_heap_B=20511
+mem_heap_extra_B=593
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=3728126
+mem_heap_B=19329
+mem_heap_extra_B=527
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=3729382
+mem_heap_B=17593
+mem_heap_extra_B=455
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=3730829
+mem_heap_B=49533
+mem_heap_extra_B=435
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=3731980
+mem_heap_B=50675
+mem_heap_extra_B=477
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=3733674
+mem_heap_B=52400
+mem_heap_extra_B=544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=3735226
+mem_heap_B=52405
+mem_heap_extra_B=539
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=3736434
+mem_heap_B=53586
+mem_heap_extra_B=606
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=3737548
+mem_heap_B=54764
+mem_heap_extra_B=660
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=3738953
+mem_heap_B=21053
+mem_heap_extra_B=595
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=3739757
+mem_heap_B=19875
+mem_heap_extra_B=541
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=3740617
+mem_heap_B=18730
+mem_heap_extra_B=502
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=3741405
+mem_heap_B=17576
+mem_heap_extra_B=456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=3742216
+mem_heap_B=16432
+mem_heap_extra_B=416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=3745868
+mem_heap_B=15277
+mem_heap_extra_B=371
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=3746718
+mem_heap_B=47235
+mem_heap_extra_B=349
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=3747587
+mem_heap_B=14419
+mem_heap_extra_B=341
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=3748313
+mem_heap_B=46665
+mem_heap_extra_B=327
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=3749252
+mem_heap_B=47522
+mem_heap_extra_B=358
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=3750084
+mem_heap_B=48386
+mem_heap_extra_B=398
+mem_stacks_B=0
+heap_tree=detailed
+n6: 48386 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 32816 0x4D23098: __alloc_dir (opendir.c:118)
+  n1: 32816 0x4D23098: opendir_tail (opendir.c:69)
+   n1: 32816 0x4D23098: opendir (opendir.c:92)
+    n1: 32816 0x4D5623B: fts_build (fts.c:636)
+     n1: 32816 0x4D57455: fts_read (fts.c:396)
+      n2: 32816 0x4E39794: fs_read (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 32816 0x4E44A97: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 32816 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+         n1: 32816 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+          n1: 32816 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+           n1: 32816 0x4011B89: call_init.part.0 (dl-init.c:72)
+            n1: 32816 0x4011C90: call_init (dl-init.c:30)
+             n1: 32816 0x4011C90: _dl_init (dl-init.c:119)
+              n0: 32816 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 8704 0x4D56D6F: fts_palloc (fts.c:1054)
+  n1: 8704 0x4D56D6F: fts_open (fts.c:153)
+   n2: 8704 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 4352 0x4E44972: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 4352 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 4352 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 4352 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 4352 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 4352 0x4011C90: call_init (dl-init.c:30)
+          n1: 4352 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 4352 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+    n1: 4352 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 4352 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 4352 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 4352 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 4352 0x4011C90: call_init (dl-init.c:30)
+         n1: 4352 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 4352 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 5448 0x4D563FB: fts_alloc (fts.c:1000)
+  n1: 5448 0x4D563FB: fts_build (fts.c:725)
+   n1: 5448 0x4D57455: fts_read (fts.c:396)
+    n2: 5448 0x4E39794: fs_read (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 3161 0x4E44A97: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 3161 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 3161 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 3161 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+         n1: 3161 0x4011B89: call_init.part.0 (dl-init.c:72)
+          n1: 3161 0x4011C90: call_init (dl-init.c:30)
+           n1: 3161 0x4011C90: _dl_init (dl-init.c:119)
+            n0: 3161 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+     n1: 2287 0x4E44C22: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 2287 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 2287 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 2287 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 2287 0x4011C90: call_init (dl-init.c:30)
+          n1: 2287 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 2287 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 604 0x4D56DF3: fts_alloc (fts.c:1000)
+  n1: 604 0x4D56DF3: fts_open (fts.c:172)
+   n1: 604 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n0: 604 in 2 places, all below massif's threshold (1.00%)
+ n1: 558 0x4D56F69: fts_alloc (fts.c:1000)
+  n1: 558 0x4D56F69: fts_open (fts.c:158)
+   n1: 558 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n0: 558 in 2 places, all below massif's threshold (1.00%)
+ n0: 256 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=3750942
+mem_heap_B=49247
+mem_heap_extra_B=441
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=3751776
+mem_heap_B=17004
+mem_heap_extra_B=452
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=3752651
+mem_heap_B=49833
+mem_heap_extra_B=463
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=3753501
+mem_heap_B=50716
+mem_heap_extra_B=516
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=3754335
+mem_heap_B=51600
+mem_heap_extra_B=552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=3755179
+mem_heap_B=19364
+mem_heap_extra_B=572
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=3756030
+mem_heap_B=18183
+mem_heap_extra_B=505
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=3756838
+mem_heap_B=17005
+mem_heap_extra_B=451
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=3757696
+mem_heap_B=15864
+mem_heap_extra_B=408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=3758478
+mem_heap_B=14710
+mem_heap_extra_B=346
+mem_stacks_B=0
+heap_tree=detailed
+n5: 14710 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8704 0x4D56D6F: fts_palloc (fts.c:1054)
+  n1: 8704 0x4D56D6F: fts_open (fts.c:153)
+   n2: 8704 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 4352 0x4E44972: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 4352 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 4352 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 4352 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 4352 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 4352 0x4011C90: call_init (dl-init.c:30)
+          n1: 4352 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 4352 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+    n1: 4352 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 4352 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 4352 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 4352 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 4352 0x4011C90: call_init (dl-init.c:30)
+         n1: 4352 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 4352 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 4588 0x4D563FB: fts_alloc (fts.c:1000)
+  n1: 4588 0x4D563FB: fts_build (fts.c:725)
+   n1: 4588 0x4D57455: fts_read (fts.c:396)
+    n2: 4588 0x4E39794: fs_read (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 2301 0x4E44A97: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 2301 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 2301 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 2301 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+         n1: 2301 0x4011B89: call_init.part.0 (dl-init.c:72)
+          n1: 2301 0x4011C90: call_init (dl-init.c:30)
+           n1: 2301 0x4011C90: _dl_init (dl-init.c:119)
+            n0: 2301 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+     n1: 2287 0x4E44C22: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 2287 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 2287 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 2287 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 2287 0x4011C90: call_init (dl-init.c:30)
+          n1: 2287 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 2287 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 604 0x4D56DF3: fts_alloc (fts.c:1000)
+  n1: 604 0x4D56DF3: fts_open (fts.c:172)
+   n2: 604 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 306 0x4E44972: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 306 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 306 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 306 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 306 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 306 0x4011C90: call_init (dl-init.c:30)
+          n1: 306 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 306 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+    n1: 298 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 298 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 298 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 298 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 298 0x4011C90: call_init (dl-init.c:30)
+         n1: 298 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 298 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 558 0x4D56F69: fts_alloc (fts.c:1000)
+  n1: 558 0x4D56F69: fts_open (fts.c:158)
+   n2: 558 0x4E39723: fs_new (in /usr/local/lib64/libpmem.so.1.0.0)
+    n1: 279 0x4E44972: check_domain_in_region (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 279 0x4E44C04: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 279 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 279 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+        n1: 279 0x4011B89: call_init.part.0 (dl-init.c:72)
+         n1: 279 0x4011C90: call_init (dl-init.c:30)
+          n1: 279 0x4011C90: _dl_init (dl-init.c:119)
+           n0: 279 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+    n1: 279 0x4E44B63: pmem2_auto_flush (in /usr/local/lib64/libpmem.so.1.0.0)
+     n1: 279 0x4E42A08: pmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+      n1: 279 0x4E400AA: libpmem_init (in /usr/local/lib64/libpmem.so.1.0.0)
+       n1: 279 0x4011B89: call_init.part.0 (dl-init.c:72)
+        n1: 279 0x4011C90: call_init (dl-init.c:30)
+         n1: 279 0x4011C90: _dl_init (dl-init.c:119)
+          n0: 279 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 256 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=69
+#-----------
+time=3759334
+mem_heap_B=13564
+mem_heap_extra_B=308
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=3760153
+mem_heap_B=12409
+mem_heap_extra_B=247
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=3761342
+mem_heap_B=7472
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=3768640
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=3892656
+mem_heap_B=72784
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=3894705
+mem_heap_B=73808
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=3899427
+mem_heap_B=73904
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=3900458
+mem_heap_B=73936
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=3923000
+mem_heap_B=82360
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=3929347
+mem_heap_B=82360
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=peak
+n4: 82360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4965C69: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29)
+  n1: 72704 0x4011B89: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4011C90: call_init (dl-init.c:30)
+    n1: 72704 0x4011C90: _dl_init (dl-init.c:119)
+     n0: 72704 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 8192 0x4882BE1: out_get_errormsg (in /home/dcslab/downloads/dash/build/pmdk/src/PMDK/src/nondebug/libpmemobj.so.1.0.0)
+  n1: 8192 0x4882CDE: out_err (in /home/dcslab/downloads/dash/build/pmdk/src/PMDK/src/nondebug/libpmemobj.so.1.0.0)
+   n1: 8192 0x4885234: util_map_part (in /home/dcslab/downloads/dash/build/pmdk/src/PMDK/src/nondebug/libpmemobj.so.1.0.0)
+    n1: 8192 0x48853E8: util_replica_map_local_addr.constprop.17 (in /home/dcslab/downloads/dash/build/pmdk/src/PMDK/src/nondebug/libpmemobj.so.1.0.0)
+     n1: 8192 0x4889610: util_pool_create_uuids_addr (in /home/dcslab/downloads/dash/build/pmdk/src/PMDK/src/nondebug/libpmemobj.so.1.0.0)
+      n1: 8192 0x4889A8B: util_pool_create_addr (in /home/dcslab/downloads/dash/build/pmdk/src/PMDK/src/nondebug/libpmemobj.so.1.0.0)
+       n1: 8192 0x489A1C9: pmemobj_create_addr (in /home/dcslab/downloads/dash/build/pmdk/src/PMDK/src/nondebug/libpmemobj.so.1.0.0)
+        n1: 8192 0x10E1F6: Allocator::Initialize(char const*, unsigned long) (in /home/dcslab/downloads/dash/build/exampleacceh)
+         n0: 8192 0x10AC26: main (in /home/dcslab/downloads/dash/build/exampleacceh)
+ n1: 1024 0x4CC6E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x4CD704F: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4CD60AF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x4CD4834: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x4CD4834: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x4CC8540: fwrite (iofwrite.c:39)
+       n1: 1024 0x49F40E3: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29)
+        n1: 1024 0x10E1C1: Allocator::Initialize(char const*, unsigned long) (in /home/dcslab/downloads/dash/build/exampleacceh)
+         n0: 1024 0x10AC26: main (in /home/dcslab/downloads/dash/build/exampleacceh)
+ n0: 440 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=79
+#-----------
+time=3949387
+mem_heap_B=73808
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=3958703
+mem_heap_B=1104
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=3960579
+mem_heap_B=80
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
