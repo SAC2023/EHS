@@ -52,7 +52,7 @@ Check out also the `run.sh` script for example benchmarks and easy testing of th
 
 To know how to integrate the Dash into your application, check out `example.cpp` under `src`.
 The executable is `example` under your build directory. 
-Also check `CMakeLists.txt` to know how to link with dependencies (customized PMDK and epoch manager) for correct build. 
+Also check `CMakeLists.txt` to know how to link with dependencies (customized PMDK and epoch manager) for correct build as per the recommendations of Dash. 
 
 ## Miscellaneous
 
