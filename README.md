@@ -27,14 +27,13 @@ make -j
 ```
 
 ## Running benchmark
+To run benchmarks, use the `run` executable in the `build` directory. 
 
-As stated in our paper, we run the tests in a single NUMA node with 24 physical CPU cores. We pin threads to physical cores compactly assuming thread ID == core ID (e.g., for a dual-socket system, we assume cores 0-23 are located in socket 0, and cores 24-47 in socket 1).  To run benchmarks, use the `test_pmem` executable in the `build` directory. It supports the following arguments:
-
-```bash
-./build/test_pmem --helpshort
+```ESH
+./build/example --helpshort
 Usage: 
-    ./build/test_pmem [OPTION...]
-
+    ./build/example [OPTION...]
+Optoins are similar to others like Dash
 -index      the index to evaluate:dash-ex/dash-lh/cceh/level (default: "dash-ex")
 -op         the type of operation to execute:insert/pos/neg/delete/mixed (default: "full")
 -n          the number of warm-up workload (default: 0)
@@ -57,10 +56,8 @@ Also check `CMakeLists.txt` to know how to link with dependencies (customized PM
 
 ## Miscellaneous
 
-We noticed a possible `mmap` bug on our testing environment: `MAP_SHARED_VALIDATE` is incompatible with `MAP_FIXED_NOREPLACE` (since Linux 4.17).
-To ensure safe memory mapping, we modified the original PMDK to use `MAP_SHARED` rather than `MAP_SHARED_VALIDATE`, which has the same functionality as the former one except for extra flag validation.
-For a more detailed explanation and minimal reproducible code, please check out our [blog post](https://blog.haoxp.xyz/posts/mmap-bug/) about this issue.
+Bugs on testing environment: can be solved in the same way other applications that use PMDK are solved.
 
 ## Contact
 
-For any questions, please contact us at `btlu@cse.cuhk.edu.hk` and `tzwang@sfu.ca`.
+For any questions, please contact us at `xx@snu.ac.kr` and `yy@snu.ac.kr`.
